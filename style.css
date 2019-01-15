@@ -50,6 +50,9 @@
 .colornumber{
   color: #47C1EF
 }
+.disco{
+  display: flex;
+}
 .tamano{
   font-size: 45px;
 }
