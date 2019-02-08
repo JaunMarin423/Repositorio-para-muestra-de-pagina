@@ -541,6 +541,27 @@ img {
   box-shadow: 0 5px 40px rgba(0, 0, 0, 0.15);
   margin-top: 15px; }
 
+  .colorbineta{
+    color: #1B1D3D;
+  }
+
+  #cambio{
+    color: rgb(86, 146, 189);
+    text-decoration: underline
+  }
+
+  #colormenublue{
+    color: #1B1D3D;
+    font-size: 15px;
+  }
+
+  .colorwhitemenu{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    
+  }
+
 .dropdown-item {
   font-size: 13px;
   font-weight: 500;
@@ -950,7 +971,7 @@ textarea {
     margin-right: 15px;
     font-size: 18px;
     display: inline-block; }
-.footer-widget-area .widget-title h6 {
+.footer-widget-area .widget-title h4 {
   font-size: 18px;
   color: #47C1EF;
   margin-bottom: 50px;
@@ -1126,7 +1147,7 @@ textarea {
 .medilife-tabs-content .medilife-tab-content {
   margin-top: 1px;
   border: 2px solid;
-  border-color: #47C1EF;
+  border-color: #fff;
   padding: 70px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .medilife-tabs-content .medilife-tab-content {
