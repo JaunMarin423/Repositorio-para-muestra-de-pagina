@@ -74,9 +74,9 @@ h6 {
   }
 
 p {
-  color: #57595c;
-  font-size: 15px;
-  line-height: 2;
+  color: #1b1d3d;
+  
+  line-height: 1;
   font-weight: 400; }
 
 a {
@@ -1604,7 +1604,7 @@ textarea {
     padding: 20px 60px 20px 20px;
     position: relative;
     font-size: 14px;
-    text-transform: capitalize;
+    text-transform: none;
     font-weight: 500; }
     .single-accordion h6 a span {
       font-size: 10px;
