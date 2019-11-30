@@ -26,6 +26,7 @@
     </div>
 
     <!-- ***** Header Area Start ***** -->
+    <!-- ***** Header Area Start ***** -->
     <header class="header-area">
         <!-- Main Header Area -->
         <div class="main-header-area" id="stickyHeader">
@@ -45,7 +46,7 @@
                                 <div class="collapse navbar-collapse" id="medilifeMenu">
                                     <!-- Menu Area -->
                                     <ul class="navbar-nav ml-auto">
-                                        <li class="nav-item">
+                                        <li class="nav-item active">
                                             <a class="nav-link" href="index.html">Inicio <span
                                                     class="sr-only">(current)</span></a>
                                         </li>
@@ -54,23 +55,51 @@
                                                 role="button" data-toggle="dropdown" aria-haspopup="true"
                                                 aria-expanded="false">Nosotros</a>
                                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="quienesSomos.html">¿Quiénes
-                                                    somos?</a>
+                                                <a class="dropdown-item" href="quienesSomos.html">¿Quiénes somos?</a>
                                                 <a class="dropdown-item" href="queHacemos.html">¿Qué
                                                     hacemos?</a>
                                             </div>
                                         </li>
 
 
-                                        <li class="nav-item dropdown active">
+                                        <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                                                 role="button" data-toggle="dropdown" aria-haspopup="true"
                                                 aria-expanded="false">Planes</a>
                                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item active"
-                                                    href="plan-integral-colsanitas.html">Colsanitas</a>
-                                                <a class="dropdown-item"
-                                                    href="plan-integral-medisanitas.html">Medisanitas</a>
+                                                <!-- <a class="dropdown-item"
+                                                    href="# ">Colsanitas</a> -->
+                                                <ul class="navbar-nav ml-auto">
+                                                    <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" href="#" id="s"
+                                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                            aria-expanded="false">Colsanitas</a>
+                                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                            <a class="dropdown-item"
+                                                                href="ContratoFamiliarCol.html">Contrato Familiar</a>
+                                                            <a class="dropdown-item"
+                                                                href="ContratoColectivocolSan.html">Contrato
+                                                                Colectivo</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <!-- <a class="dropdown-item"
+                                                    href="plan-integral-medisanitas.html">Medisanitas</a> -->
+                                                <ul class="navbar-nav ml-auto">
+                                                    <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" href="#" id="s"
+                                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                            aria-expanded="false">Medisanitas </a>
+                                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                            <a class="dropdown-item"
+                                                                href="plan-integral-medisanitas.html">Contrato
+                                                                Familiar</a>
+                                                            <a class="dropdown-item"
+                                                                href="ContratoColectivoMedisanitas.html">Contrato
+                                                                Colectivo</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
                                                 <a class="dropdown-item"
                                                     href="plan-odontologico-colsanitas.html">Colsanitas Dental</a>
                                                 <a class="dropdown-item" href="plan-medico-domiciliario.html">Salud en
@@ -102,7 +131,8 @@
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Breadcumb Area Start ***** -->
-    <section class="breadcumb-area bg-img gradient-background-overlay" style="background-image: url(img/bg-img/colsanitas.jpg);">
+    <section class="breadcumb-area bg-img gradient-background-overlay"
+        style="background-image: url(img/bg-img/colsanitas.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -142,271 +172,281 @@
     </div>
     <!-- ***** Tabs Area Start ***** -->
     <section>
-    <div class="container">
-        <div class="row">
-            <!--Inicio de acordeon-->
-            <div class="col-12">
-                <!-- ***** Progress Bars & Accordions ***** -->
+        <div class="container">
+            <div class="row">
+                <!--Inicio de acordeon-->
                 <div class="col-12">
+                    <!-- ***** Progress Bars & Accordions ***** -->
+                    <div class="col-12">
 
 
-                    <div class="accordions mb-100" id="accordion" role="tablist" aria-multiselectable="true">
-                        <!-- single accordian area -->
-                        <div class="panel single-accordion">
-                            <h6><a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseOne"
-                                    data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Desde el
-                                    Primer día
-                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                                </a></h6>
-                            <div id="collapseOne" class="accordion-content collapse">
-                                <br>
-                                <ul>
-                                    <li class="disco"><b class="colornumber">1. </b> Consulta médica externa en las
-                                        diversas especialidades.</li>
+                        <div class="accordions mb-100" id="accordion" role="tablist" aria-multiselectable="true">
+                            <!-- single accordian area -->
+                            <div class="panel single-accordion">
+                                <h6><a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseOne"
+                                        data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Desde el
+                                        Primer día
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    </a></h6>
+                                <div id="collapseOne" class="accordion-content collapse">
+                                    <br>
+                                    <ul>
+                                        <li class="disco"><b class="colornumber">1. </b> Consulta médica externa en las
+                                            diversas especialidades.</li>
 
-                                    <li class="disco"><b class="colornumber">2. </b> Atención médica domiciliaria.</li>
+                                        <li class="disco"><b class="colornumber">2. </b> Atención médica domiciliaria.
+                                        </li>
 
-                                    <li><b class="colornumber">3. </b> Consulta de psicología.</li>
+                                        <li><b class="colornumber">3. </b> Consulta de psicología.</li>
 
-                                    <li class="disco"><b class="colornumber">4. </b> Ambulancia terrestre
-                                        (perímetro urbano).</li>
+                                        <li class="disco"><b class="colornumber">4. </b> Ambulancia terrestre
+                                            (perímetro urbano).</li>
 
-                                    <li class="disco"><b class="colornumber">5. </b> Atención de urgencias</li>
+                                        <li class="disco"><b class="colornumber">5. </b> Atención de urgencias</li>
 
-                                    <li class="disco"><b class="colornumber">6. </b> Atención en accidentes de
-                                        tránsito terrestre sea peatón, conductor o
-                                        pasajero.</li>
-                                    <li class="disco"><b class="colornumber">7. </b> Servicio preventivo de
-                                        odontología y atención urgencias odontológicas.</li>
-                                    <li class="disco"><b class="colornumber">8. </b> Fisioterapia y rehabilitación,
-                                        sin límite.</li>
-                                    <li class="disco"><b class="colornumber">9. </b> Terapia respiratoria, sin
-                                        límite.</li>
-                                    <li class="disco"><b class="colornumber">10. </b> Terapia del lenguaje, sin
-                                        límite.</li>
-                                    <li class="disco"><b class="colornumber">11. </b> Terapia del lenguaje, sin
-                                        límite.</li>
-                                    <li class="disco"><b class="colornumber">12. </b> Terapia ocupacional, sin
-                                        límite.</li>
-                                    <li class="disco"><b class="colornumber">13. </b> Exámenes de laboratorio
-                                        clínico, radiológico y patológico.</li>
-                                    <li class="disco"><b class="colornumber">14. </b> Oxigenoterapia.</li>
-                                    <li class="disco"><b class="colornumber">15. </b> Urgencias psiquiátricas.</li>
-                                    <li class="disco"><b class="colornumber">16. </b> Electrocardiogramas y
-                                        cistografías.</li>
-                                    <li class="disco"><b class="colornumber">17. </b> Cama para acompañante (para
-                                        usuarios menores de 12 años y mayores de
-                                        64)</li>
-                                    <li class="disco"><b class="colornumber">18. </b> Enfermera acompañante (para
-                                        usuarios menores de 12 años y mayores de
-                                        64) (máximo tres días, según criterio médico).</li>
-                                    <li class="disco"><b class="colornumber">19. </b> Diálisis y hemodiálisis (para
-                                        afecciones reversibles).</li>
-                                    <li class="disco"><b class="colornumber">20. </b> Transfusiones de sangre.</li>
-                                    <li class="disco"><b class="colornumber">21. </b> Cirugía en caso de urgencia
-                                        vital.</li>
-                                    <li class="disco"><b class="colornumber">22. </b> Pequeña cirugía (ambulatoria)</li>
-                                    <li class="disco"><b class="colornumber">23. </b> Tratamiento ambulatorio del
-                                        cáncer (consultas, radiología, y
-                                        laboratorio clínico)</li>
-                                    <li class="disco"><b class="colornumber">24. </b> Atención de partos prematuros
-                                        a todas las usuarias.</li>
-                                </ul>
+                                        <li class="disco"><b class="colornumber">6. </b> Atención en accidentes de
+                                            tránsito terrestre sea peatón, conductor o
+                                            pasajero.</li>
+                                        <li class="disco"><b class="colornumber">7. </b> Servicio preventivo de
+                                            odontología y atención urgencias odontológicas.</li>
+                                        <li class="disco"><b class="colornumber">8. </b> Fisioterapia y rehabilitación,
+                                            sin límite.</li>
+                                        <li class="disco"><b class="colornumber">9. </b> Terapia respiratoria, sin
+                                            límite.</li>
+                                        <li class="disco"><b class="colornumber">10. </b> Terapia del lenguaje, sin
+                                            límite.</li>
+                                        <li class="disco"><b class="colornumber">11. </b> Terapia del lenguaje, sin
+                                            límite.</li>
+                                        <li class="disco"><b class="colornumber">12. </b> Terapia ocupacional, sin
+                                            límite.</li>
+                                        <li class="disco"><b class="colornumber">13. </b> Exámenes de laboratorio
+                                            clínico, radiológico y patológico.</li>
+                                        <li class="disco"><b class="colornumber">14. </b> Oxigenoterapia.</li>
+                                        <li class="disco"><b class="colornumber">15. </b> Urgencias psiquiátricas.</li>
+                                        <li class="disco"><b class="colornumber">16. </b> Electrocardiogramas y
+                                            cistografías.</li>
+                                        <li class="disco"><b class="colornumber">17. </b> Cama para acompañante (para
+                                            usuarios menores de 12 años y mayores de
+                                            64)</li>
+                                        <li class="disco"><b class="colornumber">18. </b> Enfermera acompañante (para
+                                            usuarios menores de 12 años y mayores de
+                                            64) (máximo tres días, según criterio médico).</li>
+                                        <li class="disco"><b class="colornumber">19. </b> Diálisis y hemodiálisis (para
+                                            afecciones reversibles).</li>
+                                        <li class="disco"><b class="colornumber">20. </b> Transfusiones de sangre.</li>
+                                        <li class="disco"><b class="colornumber">21. </b> Cirugía en caso de urgencia
+                                            vital.</li>
+                                        <li class="disco"><b class="colornumber">22. </b> Pequeña cirugía (ambulatoria)
+                                        </li>
+                                        <li class="disco"><b class="colornumber">23. </b> Tratamiento ambulatorio del
+                                            cáncer (consultas, radiología, y
+                                            laboratorio clínico)</li>
+                                        <li class="disco"><b class="colornumber">24. </b> Atención de partos prematuros
+                                            a todas las usuarias.</li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <!-- single accordian area -->
-                        <div class="panel single-accordion">
-                            <h6>
-                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo"
-                                    data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">A partir
-                                    del primer día del cuarto (4) mes
-                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                                </a>
-                            </h6>
-                            <div id="collapseTwo" class="accordion-content collapse">
-                                <br>
-                                <ul>
-                                    <li class="disco"><b class="colornumber">1. </b> Medios complementarios de
-                                        diagnóstico.</li>
-
-                                    <li class="disco"><b class="colornumber">2. </b> Cirugías programadas en
-                                        cualquier especialidad.</li>
-
-                                    <li><b class="colornumber">3. </b> Hospitalización para tratamiento médico,
-                                        quirúrgico o en Unidad de Cuidados
-                                        Intensivos, sin límite.</li>
-
-                                    <li class="disco"><b class="colornumber">4. </b> Hospitalización para
-                                        tratamiento psiquiátrico programada, máximo 45
-                                        días al año por cada usuario (tratamiento para brotes agudos reversibles).</li>
-
-                                    <li class="disco"><b class="colornumber">5. </b> Hospitalización domiciliaria
-                                        (incluye medicamentos y materiales
-                                        necesarios para el tratamiento).</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- single accordian area -->
-                        <div class="panel single-accordion">
-                            <h6>
-                                <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
-                                    data-parent="#accordion" data-toggle="collapse" href="#collapseThree">A partir
-                                    del primer día del séptimo (7) mes
-                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                                </a>
-                            </h6>
-                            <div id="collapseThree" class="accordion-content collapse">
-                                <br>
-                                <ul>
-                                    <li class="disco"><b class="colornumber">1. </b> Braquiterapia, radioterapia y
-                                        cobaltoterapia para tratamiento
-                                        quimioterapéutico del cáncer (excluidos medicamentos).
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Cuarta-->
-                        <div class="panel single-accordion">
-                            <h6>
-                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseCuatro"
-                                    data-toggle="collapse" data-parent="#accordion" href="#collapseCuatro">A partir
-                                    del primer día del undécimo (11) mes
-                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                                </a>
-                            </h6>
-                            <div id="collapseCuatro" class="accordion-content collapse">
-                                <br>
-                                <ul>
-                                    <li class="disco"><b class="colornumber">1. </b> Atención médica obstétrica del
-                                        parto o cesárea a todas las usuarias
-                                        del contrato.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Quinta-->
-                        <div class="panel single-accordion">
-                            <h6>
-                                <a role="button" aria-expanded="true" aria-controls="collapseQuinta" class="collapsed"
-                                    data-parent="#accordion" data-toggle="collapse" href="#collapseQuinta">A partir
-                                    del primer día del trigésimo séptimo
-                                    (37) mes
-                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                                </a>
-                            </h6>
-                            <div id="collapseQuinta" class="accordion-content collapse">
-                                <br>
-                                <ul>
-                                    <li class="disco"><b class="colornumber">1. </b> Stent coronario medicado y no
-                                        medicado.</li>
-
-                                    <li class="disco"><b class="colornumber">2. </b> Prótesis articulares de
-                                        cadera, rodilla y hombro hasta un monto de 9
-                                        SMMLV (*) al año por usuario, no acumulables año a año, siempre que no se
-                                        requiera como consecuencia de una
-                                        patología preexistente.</li>
-
-                                    <li><b class="colornumber">3. </b> Todo esto a través de un Vale de Asistencia
-                                        Médica por servicio.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--SEXTA-->
-                        <div class="panel single-accordion">
-                            <h6>
-                                <a role="button" aria-expanded="true" aria-controls="collapseSexta" class="collapsed"
-                                    data-parent="#accordion" data-toggle="collapse" href="#collapseSexta">Beneficios
-                                    adicionales del plan
-                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                                </a>
-                            </h6>
-                            <div id="collapseSexta" class="accordion-content collapse">
-                                <br>
-                                <ul>
-                                    <li class="disco"><b class="colornumber">1. </b> Cobertura de concentrados de
-                                        eritrocitos, plaquetas, crioprecipitados,
-                                        plasma y sangre total, exceptuando su consecución y otros derivados de
-                                        sangre y/o plasma.</li>
-
-                                    <li class="disco"><b class="colornumber">2. </b> Tratamiento del SIDA y sus
-                                        complicaciones.</li>
-
-                                    <li><b class="colornumber">3. </b> Cubrimiento de accidentes derivados de la
-                                        práctica de deportes de alto riesgo.</li>
-
-                                    <li class="disco"><b class="colornumber">4. </b> Material de osteosíntesis.</li>
-
-                                    <li class="disco"><b class="colornumber">5. </b> Alimentación parenteral y
-                                        enteral.</li>
-
-                                    <li class="disco"><b class="colornumber">6. </b> El Anexo Bebé en Gestación,
-                                        con el cual su bebé nace protegido porque
-                                        no tiene preexistencias y desde su nacimiento se le cubren enfermedades
-                                        congénitas, siempre y cuando se solicite su
-                                        inclusión antes de la semana 22 de gestación. En caso de no tener este
-                                        Anexo, el recién nacido recibirá la
-                                        cobertura total intrahospitalaria, los primeros 30 días, sin costo
-                                        adicional.</li>
-                                    <li class="disco"><b class="colornumber">7. </b> La posibilidad de adquirir el
-                                        Contrato de Maternidad y el Contrato
-                                        Neonatal, cuando las condiciones de antigüedad de la usuaria le impiden
-                                        acceder a los servicios de maternidad.
-                                        Suministro de medicamentos de uso ambulatorio para usuarios que sean dados
-                                        de alta de una hospitalización para
-                                        tratamiento médico o quirúrgico o de una cirugía ambulatoria, hasta una
-                                        cobertura máxima de 2.75 SMMLV* por usuario
-                                        durante cada año calendario y con un límite de hasta 15 días de medicación
-                                        por evento.</li>
-                                    <li class="disco"> <strong>(*) SMMLV: Salario Mínimo Mensual Legal Vigente.</strong></li>
-
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Septima-->
-                        <div class="panel single-accordion">
-                            <h6>
-                                <a role="button" aria-expanded="true" aria-controls="collapseSeptima" class="collapsed"
-                                    data-parent="#accordion" data-toggle="collapse" href="#collapseSeptima">Costo
-                                    del Plan Integral Colsanitas
-                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                                </a>
-                            </h6>
-                            <div id="collapseSeptima" class="accordion-content collapse">
-                                <p>
-                                    FALTA IMAGEN!
-                                </p>
-                            </div>
-                        </div>
-                        <!--Octava-->
-                        <div class="panel single-accordion">
-                            <h6>
-                                <a role="button" aria-expanded="true" aria-controls="collapseOctava" class="collapsed"
-                                    data-parent="#accordion" data-toggle="collapse" href="#collapseOctava">Videos
-                                    Servicios Colsanitas
-                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                                </a>
-                            </h6>
-                            <div id="collapseOctava" class="accordion-content collapse">
-                                <p>
-                                    <a href="http://www.youtube.com/colsanitasosi" target="_blank">
-                                        http://www.youtube.com/colsanitasosi
+                            <!-- single accordian area -->
+                            <div class="panel single-accordion">
+                                <h6>
+                                    <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo"
+                                        data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">A partir
+                                        del primer día del cuarto (4) mes
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                                     </a>
-                                </p>
+                                </h6>
+                                <div id="collapseTwo" class="accordion-content collapse">
+                                    <br>
+                                    <ul>
+                                        <li class="disco"><b class="colornumber">1. </b> Medios complementarios de
+                                            diagnóstico.</li>
+
+                                        <li class="disco"><b class="colornumber">2. </b> Cirugías programadas en
+                                            cualquier especialidad.</li>
+
+                                        <li><b class="colornumber">3. </b> Hospitalización para tratamiento médico,
+                                            quirúrgico o en Unidad de Cuidados
+                                            Intensivos, sin límite.</li>
+
+                                        <li class="disco"><b class="colornumber">4. </b> Hospitalización para
+                                            tratamiento psiquiátrico programada, máximo 45
+                                            días al año por cada usuario (tratamiento para brotes agudos reversibles).
+                                        </li>
+
+                                        <li class="disco"><b class="colornumber">5. </b> Hospitalización domiciliaria
+                                            (incluye medicamentos y materiales
+                                            necesarios para el tratamiento).</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- single accordian area -->
+                            <div class="panel single-accordion">
+                                <h6>
+                                    <a role="button" aria-expanded="true" aria-controls="collapseThree"
+                                        class="collapsed" data-parent="#accordion" data-toggle="collapse"
+                                        href="#collapseThree">A partir
+                                        del primer día del séptimo (7) mes
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    </a>
+                                </h6>
+                                <div id="collapseThree" class="accordion-content collapse">
+                                    <br>
+                                    <ul>
+                                        <li class="disco"><b class="colornumber">1. </b> Braquiterapia, radioterapia y
+                                            cobaltoterapia para tratamiento
+                                            quimioterapéutico del cáncer (excluidos medicamentos).
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--Cuarta-->
+                            <div class="panel single-accordion">
+                                <h6>
+                                    <a role="button" class="collapsed" aria-expanded="true"
+                                        aria-controls="collapseCuatro" data-toggle="collapse" data-parent="#accordion"
+                                        href="#collapseCuatro">A partir
+                                        del primer día del undécimo (11) mes
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    </a>
+                                </h6>
+                                <div id="collapseCuatro" class="accordion-content collapse">
+                                    <br>
+                                    <ul>
+                                        <li class="disco"><b class="colornumber">1. </b> Atención médica obstétrica del
+                                            parto o cesárea a todas las usuarias
+                                            del contrato.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--Quinta-->
+                            <div class="panel single-accordion">
+                                <h6>
+                                    <a role="button" aria-expanded="true" aria-controls="collapseQuinta"
+                                        class="collapsed" data-parent="#accordion" data-toggle="collapse"
+                                        href="#collapseQuinta">A partir
+                                        del primer día del trigésimo séptimo
+                                        (37) mes
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    </a>
+                                </h6>
+                                <div id="collapseQuinta" class="accordion-content collapse">
+                                    <br>
+                                    <ul>
+                                        <li class="disco"><b class="colornumber">1. </b> Stent coronario medicado y no
+                                            medicado.</li>
+
+                                        <li class="disco"><b class="colornumber">2. </b> Prótesis articulares de
+                                            cadera, rodilla y hombro hasta un monto de 9
+                                            SMMLV (*) al año por usuario, no acumulables año a año, siempre que no se
+                                            requiera como consecuencia de una
+                                            patología preexistente.</li>
+
+                                        <li><b class="colornumber">3. </b> Todo esto a través de un Vale de Asistencia
+                                            Médica por servicio.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--SEXTA-->
+                            <div class="panel single-accordion">
+                                <h6>
+                                    <a role="button" aria-expanded="true" aria-controls="collapseSexta"
+                                        class="collapsed" data-parent="#accordion" data-toggle="collapse"
+                                        href="#collapseSexta">Beneficios
+                                        adicionales del plan
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    </a>
+                                </h6>
+                                <div id="collapseSexta" class="accordion-content collapse">
+                                    <br>
+                                    <ul>
+                                        <li class="disco"><b class="colornumber">1. </b> Cobertura de concentrados de
+                                            eritrocitos, plaquetas, crioprecipitados,
+                                            plasma y sangre total, exceptuando su consecución y otros derivados de
+                                            sangre y/o plasma.</li>
+
+                                        <li class="disco"><b class="colornumber">2. </b> Tratamiento del SIDA y sus
+                                            complicaciones.</li>
+
+                                        <li><b class="colornumber">3. </b> Cubrimiento de accidentes derivados de la
+                                            práctica de deportes de alto riesgo.</li>
+
+                                        <li class="disco"><b class="colornumber">4. </b> Material de osteosíntesis.</li>
+
+                                        <li class="disco"><b class="colornumber">5. </b> Alimentación parenteral y
+                                            enteral.</li>
+
+                                        <li class="disco"><b class="colornumber">6. </b> El Anexo Bebé en Gestación,
+                                            con el cual su bebé nace protegido porque
+                                            no tiene preexistencias y desde su nacimiento se le cubren enfermedades
+                                            congénitas, siempre y cuando se solicite su
+                                            inclusión antes de la semana 22 de gestación. En caso de no tener este
+                                            Anexo, el recién nacido recibirá la
+                                            cobertura total intrahospitalaria, los primeros 30 días, sin costo
+                                            adicional.</li>
+                                        <li class="disco"><b class="colornumber">7. </b> La posibilidad de adquirir el
+                                            Contrato de Maternidad y el Contrato
+                                            Neonatal, cuando las condiciones de antigüedad de la usuaria le impiden
+                                            acceder a los servicios de maternidad.
+                                            Suministro de medicamentos de uso ambulatorio para usuarios que sean dados
+                                            de alta de una hospitalización para
+                                            tratamiento médico o quirúrgico o de una cirugía ambulatoria, hasta una
+                                            cobertura máxima de 2.75 SMMLV* por usuario
+                                            durante cada año calendario y con un límite de hasta 15 días de medicación
+                                            por evento.</li>
+                                        <li class="disco"> <strong>(*) SMMLV: Salario Mínimo Mensual Legal
+                                                Vigente.</strong></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--Septima-->
+                            <div class="panel single-accordion">
+                                <h6>
+                                    <a role="button" aria-expanded="true" aria-controls="collapseSeptima"
+                                        class="collapsed" data-parent="#accordion" data-toggle="collapse"
+                                        href="#collapseSeptima">Costo
+                                        del Plan Integral Colsanitas
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    </a>
+                                </h6>
+                                <div id="collapseSeptima" class="accordion-content collapse">
+                                    <p>
+                                        FALTA IMAGEN!
+                                    </p>
+                                </div>
+                            </div>
+                            <!--Octava-->
+                            <div class="panel single-accordion">
+                                <h6>
+                                    <a role="button" aria-expanded="true" aria-controls="collapseOctava"
+                                        class="collapsed" data-parent="#accordion" data-toggle="collapse"
+                                        href="#collapseOctava">Videos
+                                        Servicios Colsanitas
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    </a>
+                                </h6>
+                                <div id="collapseOctava" class="accordion-content collapse">
+                                    <p>
+                                        <a href="http://www.youtube.com/colsanitasosi" target="_blank">
+                                            http://www.youtube.com/colsanitasosi
+                                        </a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </section>
 
     <!-- ***** Features Area Start ***** -->
@@ -482,9 +522,12 @@
                                         y atención urgencias odontológicas.</li>
                                     <li class="disco"><b class="colornumber">9. </b>Fisioterapia y rehabilitación, sin
                                         límite.</li>
-                                    <li class="disco"><b class="colornumber">10. </b>Terapia respiratoria, sin límite.</li>
-                                    <li class="disco"><b class="colornumber">11. </b>Terapia del lenguaje, sin límite.</li>
-                                    <li class="disco"><b class="colornumber">12. </b>Terapia ocupacional, sin límite.</li>
+                                    <li class="disco"><b class="colornumber">10. </b>Terapia respiratoria, sin límite.
+                                    </li>
+                                    <li class="disco"><b class="colornumber">11. </b>Terapia del lenguaje, sin límite.
+                                    </li>
+                                    <li class="disco"><b class="colornumber">12. </b>Terapia ocupacional, sin límite.
+                                    </li>
                                     <li class="disco"><b class="colornumber">13. </b>Exámenes de laboratorio clínico,
                                         radiológico y patológico.</li>
                                     <li class="disco"><b class="colornumber">14. </b>Oxigenoterapia.</li>
@@ -501,7 +544,8 @@
                                     <li class="disco"><b class="colornumber">19. </b>Diálisis y hemodiálisis (para
                                         afecciones reversibles).</li>
                                     <li class="disco"><b class="colornumber">20. </b>Transfusiones de sangre.</li>
-                                    <li class="disco"><b class="colornumber">21. </b>Cirugía en caso de urgencia vital.</li>
+                                    <li class="disco"><b class="colornumber">21. </b>Cirugía en caso de urgencia vital.
+                                    </li>
                                     <li class="disco"><b class="colornumber">22. </b>Pequeña cirugía (ambulatoria)</li>
                                     <li class="disco"><b class="colornumber">23. </b>Tratamiento ambulatorio del cáncer
                                         (consultas, radiología, y
@@ -575,15 +619,19 @@
                                 <div class="copywrite-text">
                                     <p>
                                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                        Copyright &copy;<script>
+                                        Copyright &copy;
+                                        <script>
                                             document.write(new Date().getFullYear());
-                                        </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                            aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                        </script> All rights reserved | This template is made with <i
+                                            class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                            href="https://colorlib.com" target="_blank">Colorlib</a>
                                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     </p>
-                                    <p>Re-distributed by <a href="https://themewagon.com/" target="_blank">Themewagon</a>
+                                    <p>Re-distributed by <a href="https://themewagon.com/"
+                                            target="_blank">Themewagon</a>
                                     </p>
-                                    <p>Desarollador que programo plantilla <a href="https://github.com/JaunMarin423">Juan
+                                    <p>Desarollador que programo plantilla <a
+                                            href="https://github.com/JaunMarin423">Juan
                                             Marin</a></p>
                                 </div>
                             </div>
