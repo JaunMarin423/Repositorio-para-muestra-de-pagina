@@ -569,7 +569,7 @@ img {
 
   .dropdown:hover>.dropdown-menu {
     display: block;
-    top: 100%;
+    top: 92%;
   }
 
   .dropdown>.dropdown-toggle:active {
