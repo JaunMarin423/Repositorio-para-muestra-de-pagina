@@ -185,27 +185,27 @@
                         <div class="contact-form">
                             <h5 class="mb-50">Envíanos un correo</h5>
 
-                            <form action="#" method="post">
+                            <form action="eviar.php" method="post" name="form1">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="contact-name"
-                                        placeholder="Nombre y Apellido">
+                                    <input type="text" name="name" class="form-control" id="contact-name"
+                                        placeholder="Nombre y Apellido" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="contact-email"
-                                        placeholder="Correo electrónico">
+                                    <input type="email" name="email" class="form-control" id="contact-email"
+                                        placeholder="Correo electrónico" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" id="contact-tel"
-                                        placeholder="Teléfono de Contacto">
+                                    <input type="tel" name="phone" class="form-control" id="contact-tel"
+                                        placeholder="Teléfono de Contacto" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="contact-asunto" placeholder="Asunto">
+                                    <input name="asunto" type="text" class="form-control" id="contact-asunto" required placeholder="Asunto">
                                 </div>
                                 <div class="form-group">
                                     <textarea class="form-control" name="message" id="message" cols="30" rows="10"
-                                        placeholder="Mensaje"></textarea>
+                                        placeholder="Mensaje" required></textarea>
                                 </div>
-                                <button type="submit" class="btn medilife-btn">Enviar <span>+</span></button>
+                                <button name="submit" type="submit" value="ENVIAR" id="boton" class="btn medilife-btn">Enviar <span>+</span></button>
                             </form>
                         </div>
                     </div>
