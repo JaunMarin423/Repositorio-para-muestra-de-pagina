@@ -109,6 +109,10 @@ img {
     max-width: 100%;
 }
 
+.imgLog {
+    height: 120px !important;
+}
+
 #preloader {
     overflow: hidden;
     background-color: #f2f4f8;
