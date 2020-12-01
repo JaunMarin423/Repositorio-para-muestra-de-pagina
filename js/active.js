@@ -63,7 +63,7 @@
             navText: ['Prev', 'Next'],
             dots: true,
             autoplay: false,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 2000,
             smartSpeed: 1000
         });
 
@@ -101,7 +101,7 @@
             navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
             dots: true,
             autoplay: true,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 2000,
             smartSpeed: 1000
         });
 
@@ -110,7 +110,7 @@
             margin: 0,
             loop: true,
             autoplay: true,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 2000,
             smartSpeed: 1000,
             responsive: {
                 0: {
