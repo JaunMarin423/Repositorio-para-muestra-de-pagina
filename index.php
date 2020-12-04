@@ -2,20 +2,25 @@
 
 $destino = "agenciasoteloysotelo2021@gmail.com";
 
-$asunto = $_POST["asunto"];
+$asunto = $_POST["contact-asunto"];
 
-$name = $_POST["name"];
+$name = $_POST["contact-name"];
 
-$tel = $_POST["tel"];
+$tel = $_POST["contact-tel"];
 
-$email = $_POST["email"];
+$email = $_POST["contact-email"];
 
 $message = $_POST["message"];
 
-$conteido = "Nombre: " . $name ."\nTelefono: " . $tel . "\nCorreo: " . $email . "\nMensaje: " . $message ; 
+$conteido = "Nombre: " . $name ."\n" . "Telefono: " . $tel . "\n". "Correo: " . $email . "\n" . "Mensaje: " . $message ; 
 
-mail($destino, $asunto, $conteido);
 
-header("Location:https://www.soteloysotelo.com/index.html");
+
+if (empty($message) || empty($asunto) || empty($email)) {
+  
+}else{
+  mail($destino, $asunto, $conteido);
+  header("Location:https://www.soteloysotelo.com/index.html");
+}
 
 ?>
