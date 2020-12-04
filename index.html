@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-181170072-1" rel="nofollow"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-181170072-1" rel="nofollow noopener noreferrer"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -21,8 +21,8 @@
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico.ico">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="scss/style.scss">
+    <link rel="stylesheet preload" href="style.css">
+    <link rel="stylesheet preload" href="scss/style.scss">
 </head>
 
 <body>
@@ -50,7 +50,7 @@
                                     <!-- Menu Area -->
                                     <ul class="navbar-nav ml-auto">
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="index.html">INICIO <span
+                                            <a class="nav-link color-white" href="index.html">INICIO <span
                                                     class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item dropdown">
@@ -70,7 +70,12 @@
                                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <ul class="navbar-nav ml-auto">
                                                     <li class="nav-item dropdown">
-                                                        <a class="nav-link dropdown-toggle" href="#" id="s"
+                                                        <style>
+                                                            .color-gray{
+                                                                color: gray !important;
+                                                            }
+                                                        </style>
+                                                        <a class="nav-link color-gray dropdown-toggle" href="#" id="s"
                                                             role="button" data-toggle="dropdown" aria-haspopup="true"
                                                             aria-expanded="false">COLSANITAS</a>
                                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -83,7 +88,7 @@
                                                 </ul>
                                                 <ul class="navbar-nav ml-auto">
                                                     <li class="nav-item dropdown">
-                                                        <a class="nav-link dropdown-toggle" href="#" id="s"
+                                                        <a class="nav-link color-gray dropdown-toggle" href="#" id="s"
                                                             role="button" data-toggle="dropdown" aria-haspopup="true"
                                                             aria-expanded="false">MEDISANITAS </a>
                                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -135,10 +140,10 @@
                             <div class="hero-slides-content">
                                 <h1 style="display: none">Sotelo y Sotelo</h1>
                                 <h2 data-animation="fadeInUp" data-delay="100ms">Siempre a tu servicio.</h2>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">Desde 1989 somos agencia exclusiva de
+                                <h3 data-animation="fadeInUp" data-delay="400ms">Desde 1989 somos agencia exclusiva de
                                     la Organización Sánitas Internacional, ahora llamada
                                     Keralty.
-                                </h6>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -152,9 +157,9 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <div class="hero-slides-content">
-                                <h3 data-animation="fadeInUp" data-delay="100ms">Apoyo y seguimiento</h3>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">
-                                    en trámites y servicios de medicina prepagada Colsanitas y Medisanitas.</h6>
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Apoyo y seguimiento</h2>
+                                <h3 data-animation="fadeInUp" data-delay="400ms">
+                                    en trámites y servicios de medicina prepagada Colsanitas y Medisanitas.</h3>
                             </div>
                         </div>
                     </div>
@@ -168,10 +173,10 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <div class="hero-slides-content">
-                                <h3 data-animation="fadeInUp" data-delay="100ms">Te ayudamos</h3>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">asesorándote para que des continuidad a
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Te ayudamos</h2>
+                                <h3 data-animation="fadeInUp" data-delay="400ms">asesorándote para que des continuidad a
                                     tu plan de salud.
-                                </h6>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -184,10 +189,10 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <div class="hero-slides-content">
-                                <h3 data-animation="fadeInUp" data-delay="100ms">Mejores servicios</h3>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">de asesoría a todos los usuarios del
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Mejores servicios</h2>
+                                <h3s data-animation="fadeInUp" data-delay="400ms">de asesoría a todos los usuarios del
                                     contrato.
-                                </h6>
+                                </h3s>
                             </div>
                         </div>
                     </div>
@@ -259,9 +264,9 @@
                                 </div>
                                 <div class="footer-newsletter-area">
                                     <div class="footer-social-info">
-                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a href="https://www.youtube.com/channel/UC8w3tzxXkzbXCr7h7jZB3tQ"
-                                            target="_blank" rel="nofollow"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                        <a href="#"  name="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="https://www.youtube.com/channel/UC8w3tzxXkzbXCr7h7jZB3tQ" name="youtube"
+                                            target="_blank" rel="nofollow noopener noreferrer"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -277,17 +282,17 @@
                             <div class="bottom-footer-content">
                                 <!-- Copywrite Text -->
                                 <div class="copywrite-text">
-                                    <p>
+                                    <p class="color-white">
                                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                         Copyright &copy;
                                         <script>
                                             document.write(new Date().getFullYear());
                                         </script> All rights reserved | This template is made with <i
-                                            class="fa fa-heart-o" aria-hidden="true"></i> by <a
-                                            href="https://colorlib.com" target="_blank">Colorlib</a>
+                                            class="fa fa-heart-o" aria-hidden="true"></i> by <a class="color-white"
+                                            href="https://colorlib.com" target="_blank" rel="nofollow noopener noreferrer">Colorlib</a>
                                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     </p>
-                                    <p>Re-distributed by <a href="https://themewagon.com/"
+                                    <p class="color-white">Re-distributed by <a class="color-white" href="https://themewagon.com/" rel="nofollow noopener noreferrer"
                                             target="_blank">Themewagon</a>
                                     </p>
                                 </div>
@@ -300,14 +305,14 @@
         <center>
             <!-- ***** Footer Area End ***** -->
             <!-- jQuery (Necessary for All JavaScript Plugins) -->
-            <script src="js/jquery/jquery-2.2.4.min.js"></script>
+            <script src="js/jquery/jquery-2.2.4.min.js" rel="preload"></script>
             <!-- Popper js -->
-            <script src="js/popper.min.js"></script>
+            <script src="js/popper.min.js" rel="preload"></script>
             <!-- Bootstrap js -->
-            <script src="js/bootstrap.min.js"></script>
+            <script src="js/bootstrap.min.js" rel="preload"></script>
             <!-- Plugins js -->
-            <script src="js/plugins.js"></script>
+            <script src="js/plugins.js" rel="preload"></script>
             <!-- Active js -->
-            <script src="js/active.js"></script>
+            <script src="js/active.js"rel="preload"></script>
 </body>
 </html>

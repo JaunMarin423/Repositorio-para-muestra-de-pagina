@@ -472,7 +472,7 @@ img {
     margin-bottom: 0;
     color: #b5b5b5; }
     .top-header-area p span {
-      color: #47C1EF; }
+      color: #1B1D3D; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .top-header-area p {
         font-size: 13px; } }
@@ -513,7 +513,7 @@ img {
   font-size: 14px;
   text-transform: capitalize;
   padding: 10px 20px;
-  color: gray;
+  color: white;
   font-weight: 500;
   margin: 0 1px; }
   .header-area .main-menu .nav-link:hover {
