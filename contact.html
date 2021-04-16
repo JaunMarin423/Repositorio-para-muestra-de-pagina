@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="sotelo y sotelo contactanos">
+    <meta name="keywords" content="contactanos, sotelo, sotelo y sotelo">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -18,7 +19,7 @@
     gtag('config', 'UA-181170072-1');
     </script>
     <!-- Title  -->
-    <title>Sotelo & Sotelo</title>
+    <title>Sotelo & Sotelo | contacto</title>
 
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico.ico">
@@ -74,8 +75,8 @@
                         <div class="main-menu h-100">
                             <nav class="navbar h-100 navbar-expand-lg">
                                 <!-- Logo Area  -->
-                                <a class="navbar-brand" href="index.html"><img src="img/bg-img/0. Logos/logo S&S-01.svg"
-                                        alt="Logo" style="height: 80px"></a>
+                                <a class="navbar-brand" href="index.html"><img src="img/bg-img/0. Logos/logo S&S-01-01.png"
+                                        alt="sotelo y sotelo" title="sotelo y sotelo" style="height: 80px"></a>
 
                                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                                     data-target="#medilifeMenu" aria-controls="medilifeMenu" aria-expanded="false"
@@ -89,7 +90,12 @@
                                                     class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                            <style>
+                                                .color-gray{
+                                                    color: gray !important;
+                                                }
+                                            </style>
+                                            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown"
                                                 role="button" data-toggle="dropdown" aria-haspopup="true"
                                                 aria-expanded="false">NOSOTROS</a>
                                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -109,7 +115,7 @@
                                                     href="# ">COLSANITAS</a> -->
                                                 <ul class="navbar-nav ml-auto">
                                                     <li class="nav-item dropdown">
-                                                        <a class="nav-link dropdown-toggle" href="#" id="s"
+                                                        <a class="nav-link color-gray dropdown-toggle" href="#" id="s"
                                                             role="button" data-toggle="dropdown" aria-haspopup="true"
                                                             aria-expanded="false">COLSANITAS</a>
                                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -122,7 +128,7 @@
                                                     href="plan-integral-medisanitas.html">Medisanitas</a> -->
                                                      <ul class="navbar-nav ml-auto">
                                                     <li class="nav-item dropdown">
-                                                        <a class="nav-link dropdown-toggle" href="#" id="s"
+                                                        <a class="nav-link color-gray dropdown-toggle" href="#" id="s"
                                                             role="button" data-toggle="dropdown" aria-haspopup="true"
                                                             aria-expanded="false">MEDISANITAS </a>
                                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -163,7 +169,7 @@
 
         <!-- ***** Breadcumb Area Start ***** -->
         <section class="breadcumb-area bg-img gradient-background-overlay"
-            style="background-image: url(img/bg-img/Banner\ contáctanos-01.svg);">
+            style="background-image: url(img/bg-img/Banner\ contactanos-01.svg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12">
@@ -185,27 +191,27 @@
                         <div class="contact-form">
                             <h5 class="mb-50">Envíanos un correo</h5>
 
-                            <form action="eviar.php" method="post" name="form1">
+                            <form action="index.php" method="post">
                                 <div class="form-group">
-                                    <input type="text" name="name" class="form-control" id="contact-name"
+                                    <input type="text" name="contact-name" class="form-control" id="contact-name"
                                         placeholder="Nombre y Apellido" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" name="email" class="form-control" id="contact-email"
+                                    <input type="email" name="contact-email" class="form-control" id="contact-email"
                                         placeholder="Correo electrónico" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" name="phone" class="form-control" id="contact-tel"
+                                    <input type="tel" name="contact-tel" class="form-control" id="contact-tel"
                                         placeholder="Teléfono de Contacto" required>
                                 </div>
                                 <div class="form-group">
-                                    <input name="asunto" type="text" class="form-control" id="contact-asunto" required placeholder="Asunto">
+                                    <input type="text" name="contact-asunto" class="form-control" id="contact-asunto" placeholder="Asunto" required>
                                 </div>
                                 <div class="form-group">
                                     <textarea class="form-control" name="message" id="message" cols="30" rows="10"
                                         placeholder="Mensaje" required></textarea>
                                 </div>
-                                <button name="submit" type="submit" value="ENVIAR" id="boton" class="btn medilife-btn">Enviar <span>+</span></button>
+                                <button type="submit" class="btn medilife-btn">Enviar <span>+</span></button>
                             </form>
                         </div>
                     </div>
@@ -246,12 +252,22 @@
                                     </div>
                                 </div>
 
-                                <div class="single-contact d-flex align-items-center">
+                                <style>
+                                .whatsapp:hover {
+                                background-color: #63CAF1;
+                                color: white;
+                                }
+                                .color:hover {
+                                    color: white;
+                                }
+                                </style>
+
+                                <div class="single-contact d-flex align-items-center whatsapp">
                                 <div class="contact-icon mr-30">
-                                        <i class="icon-doctor"></i>
+                                        <a href="https://api.whatsapp.com/send?phone=573213061035&text=hola" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                                     </div>
                                     <div class="contact-meta">
-                                        <p>Whatsapp: 321 3061035.</p>
+                                        <a href="https://api.whatsapp.com/send?phone=573213061035&text=hola"  target="_blank"><p class="color">Whatsapp: 321 3061035.</p></a>
                                     </div>
                                 </div>
 
@@ -268,20 +284,10 @@
                                 <div class="contact-social-area">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="https://www.youtube.com/channel/UC8w3tzxXkzbXCr7h7jZB3tQ" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                    <a href="https://www.youtube.com/channel/UC8w3tzxXkzbXCr7h7jZB3tQ" rel="nofollow noopener noreferrer" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                                 </div>
 
                             </div>
-
-
-                            <!-- medilife Emergency Card 
-                        <div class="medilife-emergency-card bg-img bg-overlay" style="background-image: url(img/bg-img/about1.jpg);">
-                            <i class="icon-smartphone"></i>
-                            <h4>Para resolver sus inquietudes o solicitar información</h4>
-                            <h9>Acerca de nuestros servicios de Medicina Prepagada, por favor diligencie los datos del formulario. Para información
-                                de EPS Sanitas llamar al 375 9000 o al 742 6655 si usted es independiente, para citas médicas de EPS llamar al 742
-                                8383. </h9>
-                        </div>-->
                         </div>
                     </div>
                 </div>
@@ -312,12 +318,7 @@
                             <div class="col-12 col-sm-4 ">
                                 <div class="footer-widget-area">
                                     <div class="footer-logo">
-                                        <style>
-                                            .imgLog {
-                                                height: 120px !important;
-                                            }
-                                        </style>
-                                        <img class="imgLog" src="img/bg-img/0. Logos/logo S&S-02.svg" alt="" height="120px">
+                                        <img class="imgLog" src="img/bg-img/0. Logos/logo S&S-02-01.png" alt="sotelo y sotelo" title="sotelo y sotelo" style="height: 120px;">
                                     </div>
                                 </div>
                             </div>
@@ -325,10 +326,6 @@
                             <div class="col-12 col-sm-4 ">
                                 <div class="footer-widget-area">
                                     <div class="widget-title">
-                                    </div>
-                                    <div class="widget-blog-post">
-                                        <!-- <a class="dropdown-item" href="mapa.html">Plan
-                                            Mapa de navegación</a> -->
                                     </div>
                                 </div>
                             </div>
@@ -341,8 +338,8 @@
 
                                     <div class="footer-newsletter-area">
                                         <div class="footer-social-info">
-                                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                            <a href="https://www.youtube.com/channel/UC8w3tzxXkzbXCr7h7jZB3tQ" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                            <a href="#" name="nuestro-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            <a href="https://www.youtube.com/channel/UC8w3tzxXkzbXCr7h7jZB3tQ" name="canal de youtube" rel="nofollow noopener noreferrer" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -356,25 +353,27 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-12">
+                                <style>
+                                        .color-white{
+                                            color: white !important;
+                                        }
+                                    </style>
                                 <div class="bottom-footer-content">
                                     <!-- Copywrite Text -->
                                     <div class="copywrite-text">
-                                        <p>
+                                        <p class="color-white">
                                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                             Copyright &copy;
                                             <script>
                                                 document.write(new Date().getFullYear());
                                             </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                                aria-hidden="true"></i> by <a href="https://colorlib.com"
+                                                aria-hidden="true"></i> by <a class="color-white" href="https://colorlib.com" rel="nofollow noopener noreferrer"
                                                 target="_blank">Colorlib</a>
                                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                         </p>
-                                        <p>Re-distributed by <a href="https://themewagon.com/"
-                                                target="_blank">Themewagon</a>
+                                        <p class="color-white">Re-distributed by <a href="https://themewagon.com/" rel="nofollow noopener noreferrer"
+                                            class="color-white" target="_blank">Themewagon</a>
                                         </p>
-                                        <p>Desarollador de plantilla por <a
-                                                href="https://github.com/JaunMarin423">Juan
-                                                Marin</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -386,15 +385,15 @@
                 <!-- ***** Footer Area End ***** -->
 
                 <!-- jQuery (Necessary for All JavaScript Plugins) -->
-                <script src="js/jquery/jquery-2.2.4.min.js"></script>
+                <script src="js/jquery/jquery-2.2.4.min.js" rel="preload"></script>
                 <!-- Popper js -->
-                <script src="js/popper.min.js"></script>
+                <script src="js/popper.min.js" rel="preload"></script>
                 <!-- Bootstrap js -->
-                <script src="js/bootstrap.min.js"></script>
+                <script src="js/bootstrap.min.js" rel="preload"></script>
                 <!-- Plugins js -->
                 <!-- <script src="js/plugins.js"></script> -->
                 <!-- Active js -->
-                <script src="js/active.js"></script>
+                <script src="js/active.js" rel="preload"></script>
 
 </body>
 

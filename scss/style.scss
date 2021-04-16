@@ -568,7 +568,7 @@ img {
     height: 110px;
     position: relative;
     z-index: 1;
-    background-color: rgba(0, 108, 255, 0.5);
+    background-color: #1B1D3D;
     @include trans-duration(500ms);
     @media #{$breakpoint-md} {
         height: 80px;
@@ -1059,7 +1059,7 @@ textarea {
 /* :: 12.0 Footer Area CSS */
 
 .footer-area {
-    background-color: #020f20;
+    background-color: #1B1D3D;
     padding-left: 45px;
     padding-right: 45px;
     @media #{$breakpoint-lg} {
